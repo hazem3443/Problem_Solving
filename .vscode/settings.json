@@ -2,7 +2,6 @@
   "files.associations": {
     "set": "cpp"
   },
-  "remote.SSH.showLoginTerminal": true,
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
