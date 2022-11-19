@@ -91,10 +91,5 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ],
-  "remote.SSH.showLoginTerminal": true,
-  "remote.SSH.useLocalServer": false,
-  "remote.SSH.remotePlatform": {
-    "host-in-ssh-config-or-fqdn": "windows"
-  }
+  ]
 }
