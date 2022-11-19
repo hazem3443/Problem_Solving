@@ -19,7 +19,8 @@
           "value": "Debug"
         }
       ],
-      "cwd": "${workspaceFolder}"
+      "cwd": "${workspaceFolder}",
+      
     },
     {
       "name": "C/C++ Runner: Debug Session",
@@ -28,8 +29,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "h:/GITHUB_WS/Problem_Solving",
-      "program": "h:/GITHUB_WS/Problem_Solving/build/Debug/outDebug",
+      "cwd": "h:/GITHUB_WS/Problem_Solving/C++_Revision",
+      "program": "h:/GITHUB_WS/Problem_Solving/C++_Revision/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
