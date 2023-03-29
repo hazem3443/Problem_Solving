@@ -1,0 +1,935 @@
+Interview Questions for my students who are accepted in Valeo as Embedded Software Engineer this Year(2018) 🙂 
+-----------------------------------------------------------------------------------------------
+1. Valeo - Siemens Team
+a. Three methods to different functions from one function.
+b. C compilation Process in details.
+c. Pointer to function.
+d. What do you know about ADC.
+-----------------------------------------------------------------------------------------------
+2. Valeo - PTS Interview (Jumbo Interview)
+a. Interfacing between Keypad and LCD (4 & 8 Bits).
+b. What do you know about stack.
+c. Describe in the details what is the functionality and operational of:
+- IO PORTS.
+- Interrupts.
+- Timers.
+- WatchDog Timer.
+- Motors.
+- ADC.
+- ICU.
+- UART.
+- SPI.
+- I2C.
+a lot of questions in these above topics.
+d. Difference between static, extern, volatile and register keywords.
+e. Pointers tricks.
+f. Startup Code.
+g. what do you know about #pragma.
+h. difference reentrant & non-reentrant API's
+i. difference between Sync and Async API's.
+-----------------------------------------------------------------------------------------------
+3. Valeo - Geeds Team
+a. How to measure the duty cycle of a signal without using the ICU.
+b. C Code to draw a certain shape.
+c. C Code to count number of ones in the binary of an integer number.
+d. C function to get the 5th root of a number.
+-----------------------------------------------------------------------------------------------
+4. Valeo - CDV Team
+a. Ask about Microcontroller Peripherals (Timers, ADC, UART and SPI)
+b. Scheduler policies.
+c. Priority inheritance and inversion.
+d. static and extern keywords.
+e. How to divide the module to .c and .h file and the contents of each file.
+f. Keypad.
+g. Sedou code for ADC and SPI.
+h. difference between Sync and Async API's.
+-----------------------------------------------------------------------------------------------
+5. Valeo - Geeds Team
+a. How to mesaure the duty cycle of signal using/without ICU.
+b. Stack data structures algorithm. 
+c. DC, Stepper and Servo Motors
+d. Ask about the hardware of the LCD, and how to display a string on it.
+e. When and how the deadlock occurs.
+f. RTOS task status diagram.
+g. difference between primitive and the non-primitive kernel.
+-----------------------------------------------------------------------------------------------
+6. Valeo - ADAS Team
+a. Spi protcol + receive and send functions
+b. when to use spi interrupts 
+c. What happens when interrupt occurs in details.
+d. Difference between preemptive  and non-preemptive  kernel
+e. #pragma
+f. C compilation process.
+g. bootloader and startup code
+h. c keywords that effects the variable scope and life time.
+g. Sorting C code
+h. function to divde two number and do not forget to handle the case x/y and y =0
+i. C error types.
+j- AUTOSAR Layers in details.
+-----------------------------------------------------------------------------------------------
+7. Valeo - VLS team
+a. What do you know about ADC and ADC seoudo code.
+b. What happens when interrupt occurs in details.
+c. Timer operation and modes.
+f. PWM modules and parameters.
+g. C code t sort an array.
+h. C code to search for a certain element in array.
+i. How to measure the duty cycle of signal without using the ICU.
+j. What do you know about UART, SPI and I2C protocols in details.
+-----------------------------------------------------------------------------------------------
+8. Valeo - HMI Team
+a. difference between functions and Macros and when you should use both of them.
+b. write a function to write 1 or 0 to a certain bit in an integer number.
+c. function takes un-sorted array contains numbers from 0 to 9. The function shall return true if all numbers exist and false if not.
+d. function to swap two numbers and explain what happens exactly in the memory.
+e. What do you know about UART, SPI and I2C protocols in details.
+f. Difference between preemptive  and non-preemptive  kernel.
+g. AUTOSAR Layers in details.
+-----------------------------------------------------------------------------------------------
+9. Valeo - CDV Team.
+a. Difference between MP and MC
+b. Memory Types and its usage.
+c. difference between if-else and switch case.
+d. difference between variable life timer and variable scope.
+e. difference between pass by value and pass by address.
+f. I2C Frame.
+g. What happens when interrupt occurs in details.
+h. bootloader and startup code.
+i. C compilation process.
+j. AUTOSAR Layers in details.
+k. function to add two unsigned char numbers.
+l. AUTOSAR Device Driver configurations types.
+-----------------------------------------------------------------------------------------------
+10. Valeo - Geeds Team
+a. Describe in the details what is the functionality and operational of:
+- IO PORTS.
+- Interrupts.
+- Timers.
+- WatchDog Timer.
+- Motors.
+- ADC.
+- ICU.
+- UART.
+- SPI.
+- I2C.
+b. Linker file.
+c. Linked List.
+d. what is the bootloader.
+e. What do you know about ADC and its parameters.
+f. memory types.
+g. startup code in details.
+h. PWM functionality and parameters.
+i. AUTOSAR Layers Architecture in details.
+-----------------------------------------------------------------------------------------------
+11. Valeo - CDV Team
+a. C variables data types and its size.
+b. What do you know about UART, SPI and I2C protocols in details.
+c. keywords like static, extern, volatile and auto and its effect in the variable scope and life time.
+d. difference between MP and MC.
+e. Timer operations and modes.
+f. What do you know about PWM.
+g. Differenece between bootloader and startup code.
+h. Difference between reentrant and non-reentrant API's.
+i. Memory types.
+j. C Code to add two numbers.
+k. C code to pass arguments by reference.
+l. C function takes not sorted array contains number from 0 to 100. there is only one number not repeated in the array. function shall return this number.
+-----------------------------------------------------------------------------------------------
+12. Valeo - Geeds Team
+1) Measure duty cycle for a signal without using the ICU. 
+2) C Code to draw a certain shape using * character.
+3) C Code to count number of ones inside the binary of int
+4) C function to get 5th root of number
+5) What is the Kernel ?
+6) What is the Scheduler ?
+7) Difference between UART, SPI and I2C
+😎 Watchdog timer concepts and seodu code.
+-----------------------------------------------------------------------------------------------
+13. Valeo - Siemes Team
+1. C code to count number of one's in the binary of decimal number.
+2. C code to swap two arrays
+3. Different memory segments and Dynamic memory allocation.
+4. Ask about interrupts in details.
+5. How Timer work and Timer Modes.
+6. What is ADC and how it is work
+-----------------------------------------------------------------------------------------------
+14. Valeo - CDV Team
+1. C Code to sort array.
+2. C Code to draw a certain shape.
+3. Difference between UART, SPI and I2C
+4. What do you know about interrupts.
+5. ADC and how it is work.
+6. Spi Driver Code.
+7. LCD and how it is work.
+8. C Code to check if a certain number is repeated in the array or not.
+-----------------------------------------------------------------------------------------------
+15. Valeo - CDV Team
+a. Describe in the details what is the functionality and operational of:
+- IO PORTS.
+- Interrupts.
+- Timers.
+- WatchDog Timer.
+- Motors.
+- ADC.
+- ICU.
+- UART.
+- SPI.
+- I2C.
+b. I2C frame and operations.
+c. Difference between boot-loader and startup code.
+d. Memories types.
+e. Microcontroller Memory segments.
+f. what is the contents of .c and .h files.
+g. Variables Scope and Life Time & the usage of static and extern keywords.
+h. Difference between preemptive and non-preemptive  kernel.
+i. Scheduling Algorithms.
+j. RTOS Task priority and states.
+k. C code to swap to variables.
+l. ADC and interfacing with Temp sensor.
+-----------------------------------------------------------------------------------------------
+16. Valeo - CDV Team
+1) ADC functionality.
+2) Difference between Startup code and bootloader.
+3) Microcontroller Memory Segments.
+4) button and led code.
+5) contents of.c and .h files
+6) Static and Dynamic Architecture.
+7) Testing Types.
+😎 Water Fall & V Cycle Models.
+9) C Code to SWAP to arrays in reverse order.
+-----------------------------------------------------------------------------------------------
+17. Valeo - CDV Team
+a. C Function to swap two array 
+b. C function to check if string mirror or not 
+c. Difference between re-entrant and non re-entrant functions. 
+d. Difference between Semaphore and Mutex. 
+e. Communication protocols in details (UART, SPI and I2C)
+f. ADC in details and how to interface with Temp sensor.
+-----------------------------------------------------------------------------------------------
+18. Valeo - CCC/CIC Team
+a. Talk about you Graduation Project and Your Embedded Projects.
+b. USART Protocol/ Frame.
+c. Difference between Synchronous/Asynchronous Communications.
+d. Difference between Spi and I2C.
+e. How is ADC work ?
+f. PWM and how to gnerate the PWM.
+g. what is interrupt vector table and interrupt priorities.
+h. the difference between function and MACRO.
+i. C compilation process in details.
+j. variable scope and life time for local variables and static variables.
+k .what is the global variable and how to use extern keyword.
+l. Microcontroller Memory segments in details.
+m. what is stack overflow ?
+n. Difference between re-entrant and non re-entrant functions.
+o. what is the semaphore and how to use it ?
+p. write a c code to swap two variables using addition and subtraction only.
+q. Write a c function that sorts an array in descending order in a new array.
+ r. Write a c code to toggle a led using push button.
+s. RAM and ROM Types.
+t. C code to swap two arrays.
+u. What is the SDLC and what do you know about the V-Model
+-----------------------------------------------------------------------------------------------
+19. Valeo - CCC/CIC Team
+a. c function to draw a certain shape.
+b. what do you know about RTOS?
+c. What do you know about sempahore ?
+d. what is the difference between Semaphore and Mutex ?
+e. Difference between preemptive and non-preemptive  kernel.
+f. UART, SPI and I2C Protocol in details.
+-----------------------------------------------------------------------------------------------
+20. Valeo - ADAS Team
+a. Difference between polling and interrupts.
+b. Difference between NULL, Dangling and Void Pointers.
+c. C compilation process in details.
+d. Difference between MP and MC.
+e. Difference between SPI and I2C.
+f. UART Frame in details.
+g. Difference between Macros and Functions.
+h. C function to count number of zeros and ones in the binary of a number.
+i. C function returns the maximum number in array.
+j. Difference between startup code and boot-loader.
+k. C function returns the sum of two numbers.
+l. What happens in details when the processor receiver interrupt request.
+-----------------------------------------------------------------------------------------------
+21. Valeo - PTS Team
+a. Talk about the Diploma final project.
+b. Difference between startup code and boot-loader.
+c. Difference between re-entrant and non re-entrant functions.
+d. Difference between UART, SPI and I2C
+e. C function to count number of zeros and ones in the binary of a number.
+f. What is ADC and how it is work.
+g. How Timer work and Timer Modes.
+-----------------------------------------------------------------------------------------------
+22. Valeo - HMI Team  
+A. tell me about your graduation project 
+B. what is SPI in details 
+C. what do you know about ADC in details.
+D. difference between static, extern, volatile and local variables 
+E. what do you know about RTOS 
+F.what do you know about critical section and task priorities 
+G. difference between non-preemptive and preemptive kernels 
+H. What do you know about deadlock 
+I. What happens when the interrupt occurs in details.
+J. write a function that receives an array and removes Repeated elements.
+-----------------------------------------------------------------------------------------------
+23. Valeo - CCC/CIC Team  
+A. tell me about your graduation project.
+B. Waht do you know about watchdog timer.
+C. what do you know about ADC and what is the ADC resolution.
+D. What is the Interrupt Latency. and talk about interrupt priorities.
+E. What happens when the interrupt occurs in details.
+F. What is the difference between Maskable and Non-Maskable  interrupts.
+G. write a function that receives an array and removes Repeated elements.
+H. What do you know about Reentrant function.
+I. C function to reverse an array.
+J. What is the difference between variable scope and life time for these variables static, extern, volatile, register and local.
+K. What do you know about SDLC
+-----------------------------------------------------------------------------------------------
+24. Valeo - Geeds Team
+A. Tell me about your embedded diploma project.
+B. How to measure the duty cycle of a signal without using the ICU.
+C. C function to count number 1's in a binary 8-bits number.
+D. C function to get the repeated number in array contains 101 elements and the elements values from 1 to 100.
+E. What is the difference between UART, SPI and I2C.
+F. Draw X shape using *
+G. what do you know about ADC.
+H. difference between boot-loader and startup code.
+-----------------------------------------------------------------------------------------------
+25. Valeo - VLS Team
+A. Tell me about your embedded diploma project.
+B. what do you know about these keywords static, extern, register and volatile variables.
+C. Difference between Dynamic and static memory allocation.
+D. Difference between I2C and SPI
+E. What do you know about critical section.
+F. Difference between sync and Async API's
+-----------------------------------------------------------------------------------------------
+26. Valeo - CDV Team
+A. ES Definition?
+B. All peripherals in details
+- I/O Ports 
+- ADC
+- Timers
+- Interrupts
+- UART
+- SPI
+- I2C
+C. C Function to return the number of 1's and 0's in a binary 8-bits number.
+D. C function to sort array and there is input variable to decide the way of sorting ascending  or descending.
+E. C Function to reverse array elements.
+F. Difference between Interrupts and Polling.
+G. Difference between Sync and Async API's.
+H. Difference between priority Inversion and priority  Inheritance.
+I.  What is the difference between variable scope and life time for these variables static, extern, volatile, register and local.
+I. what do you know about linker script.
+K. Difference between boot-loader and startup code.
+-----------------------------------------------------------------------------------------------
+27. Valeo - Geeds Team
+A. C function to count number 1's in a binary 8-bits number.
+B. Difference between boot-loader and startup code.
+C. How to mesaure the duty cycle of signal using/without ICU.
+D. UART, SPI and I2C in details.
+E. Draw X shape using *
+F. Function to return the 5th root of integer number.
+G. What do you know about AUTOSAR Architecture ?
+H. What is the AUTOSAR layers and modules types in each layer.
+I. Tell me examples about difference SW stacks exist on the AUTOSAR standard.
+-----------------------------------------------------------------------------------------------
+28. Valeo - ADAS Team
+A. C Function to return the number of 1's and 0's in a binary 8-bits number.
+B.  write a function that receives an array and removes Repeated elements.
+C. Draw Pyramid shape using *
+D. IQ Question.
+-----------------------------------------------------------------------------------------------
+29. Valeo - VLS Team
+A. 5 waves from one timer with different frequencies.
+B. What do you know about ADC and how to use it to interface with temperature sensor. 
+C. What do you know about Spi.
+D. C function to sort an array of integers.
+E. C function takes an array and if it finds a number x makes the previous elements in a separate array. and the function returns the new array.
+F. C function to count the maximum number of consecutive one's in 8-bit binary number.
+-----------------------------------------------------------------------------------------------
+30. Valeo - CDV Team
+A. Different types of memories EEPROM, Flash, RAM.
+B. C Keywords like const, static, extern, volatile and register.
+C. What do you know about pointers and its usage.
+D. Difference between Reentrant function and Non-Reentrant function.
+E. C function to get the duplicated number in an array.
+F. What do you know about call back function and its usage.
+G. What do you know about AUTOSAR Software Architecture and its Layers ?
+H. What is "Software Stack" mean ?
+I. What do you know about SW components and RTE Layer.
+J. What do you know about module design static and generated codes.
+K. what do you know about module configurations:
+- pre-compile configurations.
+- link-time configurations.
+- post-build configurations.
+L. What do know about the below topics in AUTOSAR:
+- Compiler abstraction.
+- Platform abstraction.
+- Memory abstraction.
+M. What do you know about Module definition file and module generator and what is the workflow to generate module configuration code.
+O. What is the Det and Dem modules and how error reporting happens in AUTOSAR standard.
+P. What is the difference between the AUTOSAR modules:
+- Driver.
+- Interface.
+- Handler.
+- Manager.
+Q. What is the Virtual function Bus (VFB) in AUTOSAR.
+-----------------------------------------------------------------------------------------------
+31. Valeo - CDV Team
+A. Function to get the number of ZERO's and One's in the binary of a character variable.
+B. C function returns the repeated number in the array.
+C. Difference between RAM and ROM.
+D. RAM and ROM Types.
+E. What do you know about Pointer to function and Call Back function.
+F. Difference between Sync and Async API's.
+G. what do you know about RTOS.
+H. What do you know about deadlock
+I. What is the critical section.
+-----------------------------------------------------------------------------------------------
+32. Valeo - CDV Team
+A. Talk about your Graduation Project.
+B. What do you know about Interrupts.
+C. Difference between RAM and ROM and types of them.
+D. Difference between these keywords extern, static, volatile and register.
+E. What do you know about recursive function and its problems.
+F. Function to get the number of ZERO's and One's in the binary of a character variable.
+G. What do you know about RTOS.
+H. Difference between re-entrant and non re-entrant functions.
+I. What do you know about Call by Reference.
+J. General questions about pointers like NULL pointer, dangling pointer, pointers arithmetic ...
+-----------------------------------------------------------------------------------------------
+33. Valeo - HMI Team
+A. Talk about your Graduation Project.
+B. What do you know about UART. Write UART_SendByte function using polling and interrupts.
+C. Difference between Polling and Interrupts.
+D. Talk about recursive function and stack overflow.
+E. What do you know about V-Model.
+F. C function to remove  the duplicate number from the array.
+G. What do you know about #Pragma
+H. What do you know about static, extern, volatile and register keywords.
+I. What do you know about const keyword and its usage with pointer.
+-----------------------------------------------------------------------------------------------
+34. Valeo - CCC/CIC Team
+A. Talk about your Graduation Project.
+B. What do you know about UART and SPI.
+C. Implement a function UART_SendByte and UART_SendArray.
+D. Difference between Polling and Interrupts.
+E. Difference between Macros and Functions.
+F. Write a C function to draw a pyramid shape and another C function to print the X shape.
+-----------------------------------------------------------------------------------------------
+35. Valeo - Siemens Team
+A. C code to add two integer numbers.
+B. C Code to get the maximum repeated element in array.
+C. What do you know about timers.
+D. What do you know about ADC.
+E. Difference between UART, SPI and I2C in details.
+F. What do you about critical section.
+G. What do you know about Dead-Lock.
+-----------------------------------------------------------------------------------------------
+36. Valeo - VLS Team
+A. What do you know about PWM and how to generate different PWM signals with different frequencies using 1 interrupt.
+B. C Code to print 2D Array.
+C. What do you know about ADC and how to interface with Temperature sensor.
+D. Difference between UART, SPI and I2C in details.
+E. C Compilation Process in details.
+-----------------------------------------------------------------------------------------------
+37. Valeo - Geeds Team
+A. Draw a block diagram for the Microcontroller and Describe in the details what is the functionality and operational of:
+- IO PORTS.
+- Interrupts.
+- Timers.
+- WatchDog Timer.
+- ADC.
+- ICU.
+- UART.
+- SPI.
+- I2C.
+B. Talk about the course Final project.
+C. C Code to Swap 4-bits with the other 4-bits in byte.
+D. C Code to reverse the 8-bits in byte.
+E.C Function to get the repeated element in array.
+F. Difference between semaphore and Mutex.
+G. Difference between reentrant and recursive function.
+H. How to change data from Little to Big endians.
+I. Difference between #define and typedef.
+J. What do you know about static variables.
+K. What is the difference between structures and unions.
+-----------------------------------------------------------------------------------------------
+38. Valeo - Siemens Team
+A. What do you know about Interrupts in details.
+B. How to measure the duty cycle and frequency for PWM signal.
+C. What is the difference between UART,SPI and I2C.
+D. What is the difference between white and black box testing.
+E. Many questions related to pointers.
+F. Difference between re-entrant and non re-entrant functions.
+G. C Keywords like const, static, extern, volatile and register.
+-----------------------------------------------------------------------------------------------
+39. Valeo - CCC/CIC Team
+A. What is the difference between UART & SPI
+B. Write driver for SPI using booling and interrupt
+C. Microcontroller Memory segments. 
+D. C compilation process in details.
+E. What happens when interrupt occurs.
+F. C Code to sort array and put the result in a new array.
+G. What do you know about critical section.
+H. C function to swap two variables using arithmetic operation.
+I. What is the interrupt response and how reduce it.
+J. C code to take input from button and toggle LED.
+-----------------------------------------------------------------------------------------------
+40. Valeo - CDV Team
+A. Talk about Course final project.
+B. C Function takes an array of integers and return number of prime numbers inside the array.
+C. C Function to swap two integers.
+D. C function to  swap two pointers of integer.and Draw the stack when i call the function.
+E. How to calculate interrupt latency. 
+F. C Function takes integer and return the number of ones in the binary of this integer.
+G. what is the difference between Bootloader and Startup.
+H. what is the difference between reentrant and non-reentrant  functions.
+I. What do you know about context switch.
+-----------------------------------------------------------------------------------------------
+41. Valeo - PTS Team
+A. How to generate PWM Signal from the MCU.
+B. What do you know about UART.
+C. What do you about Scheduler.
+D. what do you know about ADC and How to control motor speed using potentiometer.
+-----------------------------------------------------------------------------------------------
+42. Valeo - VLS Team
+A. Talk about Course final project.
+B. what is the difference between synchronous and Asynchronous functions.
+C. What do you know about SPI and its connection.
+E. Code interfacing between Temperature sensor, MCU and LCD.
+F. C function to sort an array.
+G. How to generate PWM signal and What are the PWM parameters.
+-----------------------------------------------------------------------------------------------
+43. Valeo - CDV Team
+A. What do you know about variable scope and life-time.
+B. C Function to swap to arrays with the same length.
+C. How to detect stack overflow. 
+D. What do you know about SDLC and draw the V-Model.
+E. Use timer to generate interrupt every 50 Miliseconds as it is required to toggle pin every 50 Miliseconds  and another pin every 100 Miliseconds. 
+-----------------------------------------------------------------------------------------------
+44. Valeo - CDV Team
+A. Talk about Memories in the Microcontroller.
+B. How to generate PWM signal and What are the PWM parameters.
+C. What do you about ADC and its parameters.
+D. What do you know about I2C and its connection.
+E. what is the difference between Bootloader and Startup.
+F. C compilation process in details.
+G. Draw the UART frame.
+H. What is the difference between function and Macro.
+-----------------------------------------------------------------------------------------------
+45. Valeo - Geeds Team
+A. Talk about Course final project.
+B. How to use ICU to measure the duty cycle of the input PWM signal.
+C. Draw the UART frame.
+D. C Function to swap to arrays with the same length.
+E. What do you know about SPI and its connection.
+F. What happens when interrupt occurs.
+G. C code to draw X shape.
+-----------------------------------------------------------------------------------------------
+46. Valeo - HMI Team
+A. Talk about graduation project and your role in it.
+B. What do you know about SPI 
+C. You have a timer that take an action every 50 ms.  Write the code then Modify the code of the timer to take an action at 50 ms and 100 ms.
+D. C function takes two arrays and swap them.
+E. Different types of RAM.
+F. What do you know about software development cycle.
+G. What do you know about ADC? How to improve resolution of ADC?
+H. What do you know about WDT?
+I. What do you know about UART?
+J. What do you know about SPI?
+K. What do you know about task priority? Priority inversion and its solution?
+L. What do you know about deadlock (explain with time diagram)
+M. What do you know about static, volatile, extern and global variables.
+N. Write a Macro to set and clear bit.
+O. C function to reverse an array.
+-----------------------------------------------------------------------------------------------
+47. Valeo - PTS Team
+A. Talk about graduation project and your role in it.
+B. Talk about Course final project.
+C. Complete Embedded C Driver for any types of Keypad.
+D. How to interface with LCD.
+E.  How to generate PWM signal and What are the PWM parameters.
+F. What is the difference between Preemptive  and Non-Preemptive  Kernels.
+G. What do you know about deadlock.
+H. What is the difference between UART, SPI and I2C.
+-----------------------------------------------------------------------------------------------
+48. Valeo - Siemens Team
+A. Talk about graduation project and your role in it.
+B. Talk about Course final project.
+C. What is the difference between UART, SPI and I2C.
+D. C code to draw pyramid shape.
+E. C Code to Swap 4-bits with the other 4-bits in byte.
+F. Difference between RAM and ROM and types of them.
+G. Difference between boot-loader and startup code.
+H. C Code to find a certain number in array.
+-----------------------------------------------------------------------------------------------
+49. Valeo - ADAS Team
+A. C Function to return the number of 1's and 0's in a binary 8-bits number.
+B.  write a function that receives an array and removes Repeated elements.
+C. What is the difference between Preemptive  and Non-Preemptive  Kernels.
+D. Different scheduling algorithms.
+E. What do you about ADC and its parameters.
+F. What do you know about AUTOSAR Layers.
+G. C Code to get the maximum repeated element in array.
+-----------------------------------------------------------------------------------------------
+50. Valeo - CDV Team
+a. C Function to swap two array with the same length. 
+b. C function to check if string mirror or not. 
+c. Difference between re-entrant and non re-entrant functions. 
+d. Difference between Semaphore and Mutex. 
+e. Communication protocols in details (UART, SPI and I2C)
+f. ADC in details and how to interface with Temp sensor.
+G. What do you know about Deadlock.
+H. Difference between semaphore and Mutex.
+I. C compilation process in details.
+-----------------------------------------------------------------------------------------------
+51. Valeo - CDV Team
+a. Write a C Function to swap elements of 2 arrays according to the smallest array in size.
+b. What do you know about SDLC ?
+c. What do you know about Agile ?
+d. Write a c code to copy the contents of 2 arrays into a third one in a zigzag order given that array sizes are not known ?
+e. Communication protocols in details (UART, SPI and I2C)
+-----------------------------------------------------------------------------------------------
+52. Valeo - CDV Team
+a. Write a C Function to swap elements of 2 arrays according to the smallest array in size.
+b. Write a C function to sort an array with descending order.
+c. Write a C function to return the sum of an array.
+e. What do you about ADC and its parameters.
+f. Difference between boot-loader and startup code.
+-----------------------------------------------------------------------------------------------
+53. Valeo - CCC/CIC Team
+A. What do you know about PWM ?
+B. What do you know about ADC? How to improve resolution of ADC? If I have a sensor that has an output voltage of 1.25 volt how to get best resolution.
+C. What do you know about WDT?
+D. What do you know about Interrupt? Interrupt latency, recovery?
+E. What do you know about UART?
+F. What do you know about SPI?
+G. What do you know about multitasking?
+H. What do you know about task priority? Priority inversion and its solution?
+I. What do you know about deadlock (explain with time diagram)
+J. What do you know about static, volatile, extern keywords.
+K. Macro to Set bit & clear bit.
+-----------------------------------------------------------------------------------------------
+54. Valeo - Geeds Team
+A. C function to draw X shape.
+B.  C function to count  number of 1's in an integer binary.
+C. What do you know about ADC?
+D. What do you know about SPI?
+E. C function to measure the fifth root.
+F. What do you know about AUTOSAR and example the AUTOSAR Layers ?
+G. Scheduling algorithms.
+H. What are the kernel types?
+I. What do you know about task priority? Priority inversion and its solution?
+J. What do you know about the V-Model ?
+-----------------------------------------------------------------------------------------------
+55. Valeo - CDV Team
+A. Write a to Function to swap elements of 2 arrays according to the smallest in size.
+B. SDLC what do you know about it?
+C. What is Agile?
+D. Write a c code to copy the contents of 2 arrays into a third one in a zigzag order given that array sizes is not known.
+-----------------------------------------------------------------------------------------------
+56. Valeo - PTS Team
+A. The usage of the typedef keyword.
+B. C Function to rotate the 8 bits binary of the integer.
+C. Pseudo Code for the UART Driver.
+D. Pseudo Code for the ADC Driver.
+E. Pseudo Code for the PWM Driver.
+-----------------------------------------------------------------------------------------------
+57. Valeo - CCC/CIC Team
+A. Course Final Project.
+B. What is the difference between UART, SPI and I2C ?
+C. C function to send a byte using UART driver then use it to send an array.
+D. Microcontroller Memory segments and discuss where to allocate the different types of c variables.
+E. Write a C function takes an array and remove the repeated number from it.
+F. What is the problem with the recursive function.
+G. What is the SDLC and V-Model ?
+H. What is the AUTOSAR and discuss each Layer in details.
+I. What do you know about interrupts and interrupt controller.
+J. Write a C function to get the Max and Min numbers in the array.
+K. Write a C function to swap two integers with use temp variable.
+L. How function can return 2 arguments with 4 different methods.
+M. What is the Dangling Pointer.
+-----------------------------------------------------------------------------------------------
+58. Valeo - CCC/CIC Team
+A. C function to sort an array in descending order.
+B. Pseudo code for UART and Spi Drivers.
+C. What do you know about the Watchdog timer ?
+D. What is the difference between synchronous and Asynchronous functions.
+E. Difference between reentrant and recursive function.
+F. What is the difference between Preemptive  and Non-Preemptive  Kernels.
+G. C function to toggle a led after press the push button.
+H. What do you know about interrupts ?
+I. C code to convert a variable from big to little endian .
+J. What is the difference between the waterfall Model and V-Model ?
+K. What do you know about global, local, static, extern, register and volatile variables ?
+L. C function to return the multiplication and sum of two variables.
+-----------------------------------------------------------------------------------------------
+59. Valeo - CCC/CIC Team
+A. C function to return the multiplication and sum of two variables.
+B. C function that takes the temperature of a certain moment and return the highest temperature so far.
+C. C compilation process.
+D. what is the difference between MP and MC ?
+E. What will happen if function return the address of one of its local variables?
+F. Scheduling algorithms like Round-robin and High Priority.
+G. What do you know about global, local, static, extern, register and volatile variables ?
+-----------------------------------------------------------------------------------------------
+60. Valeo - CCC/CIC Team
+A. C function to count number of 1's in the binary of integer number.
+B. Difference between global and static variable.
+C. How to return array by value.
+D. how to return two values from c function.
+E. Difference between Mutex and Semaphore.
+F. What is the interrupt latency and how to minimize it.
+G. C function take one number and called by the application many times , return the minimum number from the first call.
+H. Write the Keypad Driver.
+I. Ask about the GP.
+-----------------------------------------------------------------------------------------------
+60. Valeo - HMI Team
+A. C Function return the addition and multiplication of two char.
+B. C Function to SWAP two integer numbers without using the Temp variable.
+C. C Function to return the prime number start from ZERO to certain number.
+D. Difference between global and static variables according to variable scope and life time.
+E. What do you know about interrupts and What is the interrupt latency ?
+F. What do you know about Stack Overflow.
+-----------------------------------------------------------------------------------------------
+61. Valeo - CDV Team
+A. What is the difference between the MP and MC.
+B. What do you know about ADC.
+C. What do you know about Timers and discuss every Timer mode in details.
+D. What do you know about UART, SPI and I2C in details.
+E. What do you know about #Pragma.
+F. What do you know about startup code.
+G. What is the difference between these keywords static, extern, volatile and register.
+H. Difference between re-entrant and non re-entrant functions. 
+I. Difference between Synchronous and Asynchronous functions.
+J. C Compilation Process.
+K. Difference between EEPROM and Flash-EEPROM.
+L. What is the difference between Preemptive and Non-Preemptive  Kernels.
+M. Scheduler Algorithms and Task priority states.
+-----------------------------------------------------------------------------------------------
+62. Valeo - Siemens Team
+A. Talk about your GP.
+B. Write the KEypad Driver.
+C. C Code to make led ON every button press.
+D. C Code to make led ON every button release.
+E. What do you about motors.
+F. What do you know about UART, SPI and I2C in details.
+G. C Compilation Process.
+-----------------------------------------------------------------------------------------------
+63. Valeo - PTS Team
+A. Talk about your GP.
+B. what is u8 type and how to define it ?
+C. Write a c function that takes u8 number and swap its 4 -bits.
+D. What is the difference between Structure and Union ?
+E. The usage of static and volatile keyword.
+F. What is the difference between static, dynamic and automatic memory allocation ?
+G. Compare between the UART and SPI.
+H. Code to Generate a PWM signal using timer.
+I. How to capture the input signal without using the ICU module.
+-----------------------------------------------------------------------------------------------
+64. Valeo - Geeds Team
+A. What do you know about Timer and describe in detail the timer mode functionality.
+B. How to generate a PWM signal and what is the duty cycle.
+C. How the DC Motor Work.
+D. How to interface with the LCD driver.
+E. Difference between interrupts and polling.
+F. Difference between Synchronous and Asynchronous functions.
+G. C function to count number of ZEROS in 32-bits number.
+H. Difference between EEPROM and Flash-EEPROM.
+-----------------------------------------------------------------------------------------------
+65. Valeo - Geeds Team
+A. C code to SWAP two arrays.
+B. What is the difference between white and black box testing.
+C. What is the difference between Unit and Integration test.
+D. IQ questions.
+-----------------------------------------------------------------------------------------------
+66. Valeo PTS Team
+A. Talk about your Embedded Diploma Project.
+B. What is the difference between RAM and ROM.
+C. What do you know about Inline Function.
+D. How to use a global variable from another file.
+E. Write a function that return the index of the odd element in the array given that the array contains even numbers except one odd number.
+F. How to count the size of the array if it is unknown.
+G. Bit-wise operations and how to use it to access certain bits.
+H. What do you know about PWM.
+I. What do you know about I2C.
+-----------------------------------------------------------------------------------------------
+67. Valeo PTS Team
+A. Talk about your graduation project and related embedded software projects.
+B. What do you know about Timers.
+C. What do you know about ADC.
+D. What do you know about I2C.
+E. How to generate the PWM signal.
+F. C Function to multiply two integers with using *
+G. What is the difference between stepper and servo motor.
+H. What do you know about the Input Capture Unit.
+-----------------------------------------------------------------------------------------------
+68. Valeo Siemens Team
+A. Write a C function to draw a triangle using *.
+B. What do you know about interrupts.
+C. Wat do you know about these keywords static, volatile, externa dn register.
+D. What is the difference between interrupt and polling.
+-----------------------------------------------------------------------------------------------
+69. Valeo Siemens Team
+A. What do you about UART Protocol.
+B. What do you about SPI Protocol.
+C. What do you about I2C Protocol.
+D. What is the usage of the #pragma
+E. Write a C function to SWAP to arrays.
+F. Write C function to print the maximum numbers of zeros between two one's in binary of integer number.
+-----------------------------------------------------------------------------------------------
+70. Valeo Siemens Team
+A. Difference between MP and MC.
+B. C Compilation Process in details.
+C. Difference between MACROS and Functions.
+D. What do you know about SPI.
+E. Difference between header and source files.
+F. Difference between EEPROM and Flash EEPROM.
+G. What is the contsnat pointer.
+H. C function to count number of 1's in a binary of integer.
+I. What are the timer modes.
+-----------------------------------------------------------------------------------------------
+71. Valeo HMI Team
+A. Write a Pseudo code for the Spi Driver.
+B. What do you know about ADC.
+C. C function to Sort an Array.
+D. C code to print the binary of integer number.
+E. What do you know about timer modes.
+F. What do you know about PWM.
+-----------------------------------------------------------------------------------------------
+72. Valeo VLS Team
+A. What is the difference between interrupts and polling.
+B. What do you know about ADC.
+C. What do you know about PWM.
+D. Difference between UART, SPI and I2C.
+E. C function to print a prime numbers in a certain range.
+F. C Function to sort an array.
+G. Talk about your Graduation Project.
+-----------------------------------------------------------------------------------------------
+73. Valeo PTS Team
+A. What do you know about timer modes.
+B. What do you know about interrupts.
+C. What do you know about context switching.
+D. Write a C function that return the sum of the digits of certain number.
+E. How to generate a PWM signal using interrupts only.
+F. How to use rhe ADC to read the temperature value from the temperature sensor.
+G. Write a C function to swap between the two 4-bits in 8 bits number.
+-----------------------------------------------------------------------------------------------
+74. Valeo CDV Team
+A. C function to SWAP two arrays with the same length.
+B. C function to SWAP two arrays with different length.
+Arr1: 1,2,3
+Arr2: 4,5,6,7,8
+The output :
+Arr1: 4,5,6
+Arr2: 1,2,3,7,8
+C. C function to merge two arrays in the third array 
+input 1: 1,2,3
+Input 2: 4,5,6,7
+Output: 1,4,2,5,3,6,7
+D. Two IQ Questions 
+-----------------------------------------------------------------------------------------------
+75. Valeo ADAS Team
+A. Talk about your graduation project in a block diagram.
+B. Difference between MC and MP.
+C. C-compilation process.
+D. Types of memories in MC and segments of SRAM and FLASH.
+E. ADC interface with LM35 temperature sensor.
+F. What happened when interrupt occurs. What we meant by Context switch.
+G. Talk about PWM and Watchdog Timer.
+H. Talk about the UART, SPI and I2C.
+I. C function to return the maximum number in array and its index.
+J. C function to count two 8bits numbers and return the result.
+K. C function two swap two pointers.
+-----------------------------------------------------------------------------------------------
+76. Valeo ADAS Team
+A. Explain all communication protocol and compare between them (in depth)
+B. What happened when interrupt occurs. and types of interrupts.
+C. Difference between Mutuex and Semaphore.
+D. What is the AUTOSAR Layered Architecture and describe each layer.
+E. keywords volatile, register, extern and static.
+F. Write C function to swap 3 digits cyclic. For example, 235 will be 352
+G. how to use temperature sensor with ADC.
+H. What is the difference between preemptive and non-preemptive.
+I. Write Pseudo code to initialize UART.
+J. What do you know about Lin and Can Protocols.
+-----------------------------------------------------------------------------------------------
+77. Valeo ADAS Team
+A. The Diploma Project.
+B. C function to count two 8bits numbers and return the result.
+C. How to write Assembly code with C code in the same file.
+D. C code to turn on the led if the switch is pressed.
+E. How to define the Memory mapped registers without using library.
+F. Write C Macros to set, cleat and toggle bits.
+J. Difference between Mutuex and Semaphore.
+H. What do you know about critical section.
+-----------------------------------------------------------------------------------------------
+78. Valeo VLS Team
+A. how to use temperature sensor with ADC.
+B. What do you know about interrupts.
+C. How to generate PWM signal from the MC.
+D. Describe every AUTOSAR Layer in details.
+E. C function to Sort and an array.
+-----------------------------------------------------------------------------------------------
+79. Valeo - Geeds Team
+A. What do you know about Timer and describe in detail the timer mode functionality.
+B. How to generate a PWM signal and what is the duty cycle.
+C. How the DC Motor Work.
+D. How to interface with the LCD driver.
+E. Difference between interrupts and polling.
+F. Difference between Synchronous and Asynchronous functions.
+G. C function to count number of ZEROS in 32-bits number.
+H. Difference between EEPROM and Flash-EEPROM.
+-----------------------------------------------------------------------------------------------
+80. Valeo - CDV Team
+a. Write a C Function to swap elements of 2 arrays according to the smallest array in size.
+b. What do you know about SDLC ?
+c. What do you know about Agile ?
+d. Write a c code to copy the contents of 2 arrays into a third one in a zigzag order given that array sizes are not known ?
+e. Communication protocols in details (UART, SPI and I2C)
+-----------------------------------------------------------------------------------------------
+81. Valeo ADAS Team
+A. Talk about your graduation project in a block diagram.
+B. Difference between MC and MP.
+C. C-compilation process.
+D. Types of memories in MC and segments of SRAM and FLASH.
+E. ADC interface with LM35 temperature sensor.
+F. What happened when interrupt occurs. What we meant by Context switch.
+G. Talk about PWM and Watchdog Timer.
+H. Talk about the UART, SPI and I2C.
+I. C function to return the maximum number in array and its index.
+J. C function to count two 8bits numbers and return the result.
+K. C function two swap two pointers.
+-----------------------------------------------------------------------------------------------
+82. Valeo ADAS Team
+A. The difference between MP and MC.
+B. What is the Watchdog Timer.
+C. Write a c function to reverse a string.
+D. Write c function to count number of 1's in 8bits binary number.
+E. What is the startup code?
+F. Write a c function to SWAP two integer numbers and another function to SWAP two pointers to integer.
+G. What is the difference between little and big endians. Write a c code to know if the architecture is little or big endian.
+-----------------------------------------------------------------------------------------------
+83. Valeo PTS Team
+A. Implement UART Send and Receive API's using interrupts & Polling.
+B. How to generate a PWM signal.
+C. C function to handle error checking of the send data using checksum algorithm.
+-----------------------------------------------------------------------------------------------
+84. Valeo CDV Team
+A. Talk about your graduation project 
+B. C Build process in details
+C. Difference between UART, SPI, I2C in details
+D. Write function to reverse string using iteration and recursion
+E. Write function to find repeated number in unsorted array of size 101 elements in optimized way.
+F. What is the use of volatile and static keywords
+G. if we have led and switch: Write function to light the led while pressing the switch and How to fix de-bouncing in the switch.
+-----------------------------------------------------------------------------------------------
+85. Valeo CDV Team
+A. C function to calculate this series 1,2,3,5,8..
+B. C function to count the number of calls of this functions.
+C. Talk about your Graduation project.
+D. UART send byte API using interrupts.
+E. What do you know about priority inversion.
+F. C code to flash led every press from the button.
