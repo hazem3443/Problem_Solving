@@ -1,1 +1,3 @@
 *.exe
+.ssh/authorized_keys
+.gitignore
