@@ -1,3 +1,5 @@
 *.exe
 .ssh/authorized_keys
 .gitignore
+C++_Revision/PlayGround/Origin/build/*
+C++_Revision/Cmake/build/*

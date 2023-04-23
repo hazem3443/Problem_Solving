@@ -1,45 +1,99 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C++ Launch",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}",
-      "args": [
-        "-g",
-        "-std=c++11",
-        "${file}",
-        "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}"
-      ],
-      "environment": [
+    "version": "0.2.0",
+    "configurations": [
         {
-          "name": "config",
-          "value": "Debug"
-        }
-      ],
-      "cwd": "${workspaceFolder}",
-      
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "h:/GITHUB_WS/Problem_Solving/C++_Revision",
-      "program": "h:/GITHUB_WS/Problem_Solving/C++_Revision/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
+            "name": "c++23 Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++23 debug active file"
+        },
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "c++23 Run",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Enable stack usage",
+                    "text": "-gdb-set use-frequent-symbol-lookups on\n-gdb-set print object on\n-gdb-set print elements 0\n-gdb-set print pretty on\n-gdb-set exec-wrapper env 'LD_PRELOAD=C:\\MinGW\\bin\\libasan.dll'",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++23 build active file"
+        },
+        {
+            "name": "c++11 Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++11 debug active file"
+        },
+        {
+            "name": "c++11 Run",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Enable stack usage",
+                    "text": "-gdb-set use-frequent-symbol-lookups on\n-gdb-set print object on\n-gdb-set print elements 0\n-gdb-set print pretty on\n-gdb-set exec-wrapper env 'LD_PRELOAD=C:\\MinGW\\bin\\libasan.dll'",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++11 build active file"
         }
-      ]
-    }
-  ]
+    ]
 }
