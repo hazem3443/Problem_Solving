@@ -48,7 +48,7 @@ also you can find an example of simple main at **main.cpp** you can check that
 
 We welcome contributions to this Template Project! Here are some ways you can get involved:
 
-### Bug Reports :lady_beetle
+### Bug Reports :lady_beetle:
 
 If you come across a bug or issue with Origin Template that can affect the modularity, maintainability, simplicity or even fast engaging with such template, please submit a detailed bug report. Be sure to include:
 
