@@ -1,20 +1,20 @@
 #include <iostream>
-#include "include/Solution.h"
+#include <romanToInt.h>
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    Solution s;
+    Roman R;
     //test Romanintegers
 
-    cout << "roman(I) = " << s.romanToInt("I") <<endl;
-    cout << "roman(V) = " << s.romanToInt("V") <<endl;
-    cout << "roman(X) = " << s.romanToInt("X") <<endl;
-    cout << "roman(L) = " << s.romanToInt("L") <<endl;
-    cout << "roman(C) = " << s.romanToInt("C") <<endl;
-    cout << "roman(D) = " << s.romanToInt("D") <<endl;
-    cout << "roman(M) = " << s.romanToInt("M") <<endl;
+    cout << "roman(I) = " << R.ToInt("I") <<endl;
+    cout << "roman(V) = " << R.ToInt("V") <<endl;
+    cout << "roman(X) = " << R.ToInt("X") <<endl;
+    cout << "roman(L) = " << R.ToInt("L") <<endl;
+    cout << "roman(C) = " << R.ToInt("C") <<endl;
+    cout << "roman(D) = " << R.ToInt("D") <<endl;
+    cout << "roman(M) = " << R.ToInt("M") <<endl;
 
     return 0;
 }

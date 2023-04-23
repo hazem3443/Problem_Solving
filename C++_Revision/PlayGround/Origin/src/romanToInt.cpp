@@ -1,11 +1,12 @@
+#include <romanToInt.h>
 #include <iostream>
-#include "../include/Solution.h"
+#include <Add/Add.h>
 
-Solution::Solution()
+Roman::Roman()
 {
 }
 
-int Solution::romanToInt(std::string s)
+int Roman::ToInt(std::string s)
 {
     int i = 0;
     int res = 0, prev = 0, cur = 0;
@@ -18,17 +19,16 @@ int Solution::romanToInt(std::string s)
         500, // D
         1000 // M
     };
-
     // initialize the values
     int *LettersLookup[256] = {nullptr};
     // set romanletters to value reference
     LettersLookup[((int)'I')] = IdxToValRomanLettersList;
-    LettersLookup[((int)'V')] = IdxToValRomanLettersList + 1;
-    LettersLookup[((int)'X')] = IdxToValRomanLettersList + 2;
-    LettersLookup[((int)'L')] = IdxToValRomanLettersList + 3;
-    LettersLookup[((int)'C')] = IdxToValRomanLettersList + 4;
-    LettersLookup[((int)'D')] = IdxToValRomanLettersList + 5;
-    LettersLookup[((int)'M')] = IdxToValRomanLettersList + 6;
+    LettersLookup[((int)'V')] = add(IdxToValRomanLettersList, 1);
+    LettersLookup[((int)'X')] = add(IdxToValRomanLettersList, 2);
+    LettersLookup[((int)'L')] = add(IdxToValRomanLettersList, 3);
+    LettersLookup[((int)'C')] = add(IdxToValRomanLettersList, 4);
+    LettersLookup[((int)'D')] = add(IdxToValRomanLettersList, 5);
+    LettersLookup[((int)'M')] = add(IdxToValRomanLettersList, 6);
 
     while (i < s.length())
     {
