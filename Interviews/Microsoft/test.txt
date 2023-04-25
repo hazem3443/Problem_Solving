@@ -1,0 +1,15 @@
+2 problems 
+
+1  with counting the numbers with certain number of reptitions inside a stream that we dont know its length
+
+for example 
+
+countreps(5,3, "5564555556555")
+
+this should return 2 
+
+i solved this one in 10 or 13 mins
+
+the second one was an interval map problem with colors red, yello, blue
+
+he provided a class with get method and wants me to implement the set method and take care of the override behavior of the last set operation on the line number
